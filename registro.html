@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<htlml lang="es">
+<head>
+<title>Registro</title>
+<link rel="icon" type="image/png" href="../img/icono.png">
+<metacharset="utf-8">
+</head>
+<body>
+<h1>Formulario de Registro</h1>
+<p><b>los campos marcados con astericos son obligatorios</b></p>
+
+<form action="#" method="post">
+<label>*Nombre:</label><br>
+<input type="text" name="text" placeholder="Ingresa tu nombre" required=""></input>
+<br>
+<br>
+<label>*Apellido:</label><br>
+<input type="text" name="text" placeholder="Ingresa tu Apellido" required=""></input>
+<br>
+<br>
+<label>*Documento de identidad:</label><br>
+<select name="lista" required="">
+	<option>Cedula de Ciudadania</option>
+	<option>Tarjeta de Identidad</option> 
+</select>
+<br>
+<br>
+<label>*Numero de Documento:</label><br>
+<input type="number" name="numero" placeholder="Numero de Documento" required=""></input>
+<br>
+<br>
+<label>*Fecha de Nacimiento:</label><br>
+<input type="date" name="date" placeholder="Fecha de Nacimiento" required=""></input>
+<br>
+<br>
+<label>*Sexo:</label><br>
+<input type="radio" name="sexo" required="">Hombre </input>
+<input type="radio" name="sexo" required="">Mujer </input>
+<br>
+<br>
+<label>*Correo Electrónico:</label><br>
+<input type="email" name="email" placeholder="Correo Electronico" required=""></input>
+<br>
+<br>
+<label>*Contraseña:</label><br>
+<input type="password" name="clave" placeholder="Contraseña" required=""></input>
+<br>
+<br>
+<label>*Confirmar Contraseña:</label><br>
+<input type="password" name="clave" placeholder="Confirmar Contraseña" required=""></input>
+<br>
+<br>
+<input type="checkbox" name="condiciones" value="Acepto Terminos y Condiciones">Acepto Terminos y Condiciones</input>
+<br>
+<br>
+<input type="submit" value="Crear Cuenta"></input>
+<br>
+</form>
+
+</body>
+</html>
